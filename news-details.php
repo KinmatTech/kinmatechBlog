@@ -476,10 +476,9 @@ endif;
             <div>
               <a href="javascript:void(0)" class="sub-side-container"> Socials</a>
               <hr>
-              <a href="#" class="facb"><i class="fa fa-facebook"></i> Facebook</a>
-             <a href="#" class="insg"><i class="fa fa-instagram"></i> Instagram</a>
-             <a href="#" class="twit"><i class="fa fa-twitter"></i> Twitter</a>
-             <a href="#" class="teleg"><i class="fa fa-telegram"></i> Telegram</a>
+              <a href="https://www.facebook.com/kingsley.okey.31" target="_blank" class="facb"><i class="fa fa-facebook"></i> Facebook</a>
+             <a href="https://www.instagram.com/kinmat_tech" target="_blank" class="insg"><i class="fa fa-instagram"></i> Instagram</a>
+             <a href="https://twitter.com/kinmatech" target="_blank" class="twit"><i class="fa fa-twitter"></i> Twitter</a>
             </div>
             
             </div>

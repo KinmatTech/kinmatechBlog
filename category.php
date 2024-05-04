@@ -4,34 +4,28 @@ error_reporting(0);
 include('includes/config.php');
 
     ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-
-  <link rel="shortcut icon" href="favicon.ico" type="image/png">
-        <link rel="apple-touch-icon" href="favicon.ico">
-        <meta name="keywords" content="News, trending, media, magazine, gossip, celebrities, lessons ,references,examples,tips, videos, beginners, free">
-        <meta property="og:url" content="http://www.kinmatech.com.ng">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <meta name="author" content="espmedl@gmail.com" >
-        <meta name="theme-color" content="#ffffff">
+<head>
+    <title>Kinmat Technologies Limited | Blog Home</title>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="shortcut icon" href="favicon.ico" type="image/png">
+        <link rel="apple-touch-icon" href="favicon.ico">
+        <meta name="description" content="">  
+        <meta name="keywords" content=" ">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="#">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="theme-color" content="#ffffff">
         <meta name="msapplication-navbutton-color" content="#ffffff">
         <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="FrontPage">
+         <!-- Bootstrap core CSS -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>Front Page | News</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
-    <style>
+        <style>
            * {
     box-sizing: border-box;
     margin: 0px;
@@ -40,13 +34,13 @@ include('includes/config.php');
   body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: #1d2330;
+    background-color: #fff;
   }  
   /*header*/
   .brand{
     text-align: center;
      float: end;
-     margin-top: 0px;
+     margin-top: -30px;
   }
   .brand a{
       text-decoration: none;
@@ -115,7 +109,7 @@ include('includes/config.php');
   }
   .w-f-u:hover{
     color: white !important;
-    box-shadow: 0px 0px 10px #ff591cbb;
+    box-shadow: 0px 0px 10px red;
   }
   
   .sub-side-container:first-child{
@@ -174,22 +168,21 @@ include('includes/config.php');
     }
     /* Main column */
     .main {   
-      flex: 70%;
+      flex: 40%;
       background-color: white;
-      padding: 50px;
+      padding: 20px;
     }
     
     /*  image */
     .imgprops {
       width: 100%;
     }
-    
     @media screen and (max-width: 800px) {
       .side{
-  flex: 0%;
+  flex: 50%;
       }
       .main{
-        flex: 100%;
+        flex: 50%;
       }
       
     }
@@ -211,7 +204,7 @@ include('includes/config.php');
         height: 100%;
         width: 0;
         position: fixed;
-        z-index: 2;
+        z-index: 1;
         top: 0;
         right:  0;
         background-color:#282e3b ;
@@ -261,24 +254,25 @@ include('includes/config.php');
   }
   @media screen and (max-width: 1000px){
     .top-nav{
-      margin-left: 0px !important;
+      margin-left: 70px !important;
     }
     }
   .top-nav{
     margin-bottom: 70px;
-    margin-left: 20%;
+    margin-left: 30%;
+    
   }
   .nav{
     width: auto;
     height: 40px;
     border: none;
-    line-height: 10px;
-  
+    line-height: 20px;
   }
   .top-nav a{
   text-decoration: none;
-  color: #fff;
+  color: #F5F5F5;
   font-family: Berlin Sans FB;
+  
   }
   .top-nav a:hover{
     color: red;
@@ -289,10 +283,16 @@ include('includes/config.php');
     font-size: 12pt ;
     margin-right: 20px;
   }
-
+  .fa-circle{
+  color: red;
+  margin-left: 3px;
+  }
+  #c-color{
+        text-transform: uppercase;
+    }
    .header-box{
-     background-color: #1d2330;
-    height:70px;
+     background-color: #F5F5F5;
+     height:70px;
    }
    .News-heading{
      text-decoration: navy;    
@@ -313,7 +313,7 @@ include('includes/config.php');
      margin-left: 10px;
    }
    footer{
-     background-color: #282e3b;
+     background-color: #F5F5F5;
      margin: 0px;
    }
   
@@ -369,7 +369,7 @@ include('includes/config.php');
     text-decoration: none;
     font-size: 10pt;
   }
-  
+ 
    .card-title-font{
      color:#113277;
      font-size: 15pt
@@ -384,7 +384,7 @@ include('includes/config.php');
  }
  .postimgtopt{
   width:100%;
-   height:350px;
+   height:150px;
    border-radius:5px 5px 0 0;
  }
  .fixed-bar{
@@ -393,7 +393,7 @@ include('includes/config.php');
   width: 100%;
   z-index: 1;
  }
- /*scroll to top*/
+/*scroll to top*/
  @keyframes rotate {
    to {
      transform: rotate(2520deg);
@@ -423,94 +423,56 @@ include('includes/config.php');
      animation-iteration-count: infinite;
 }
         </style>
+</head>
 
-  </head>
-
-  <body>
-  <section class="header-box fixed-bar">
-    <span style="font-size:30px;cursor:pointer; color: rgb(255, 255, 255); float: left;" onclick="openNav()">☰ </span> 
-   <h2 class="brand"><a href="index.php"> Fr<span style="color: red">o</span>nt Page </a></h2>
+<body>
+  <section class="header-box fixed-bar ">
    
- <ul class="top-nav">
-   <a href="index.php" ><li class="nav" id="c-color"> Home </li></a>
-   <!-- <a href="category.php?catid=2"><li class="nav"> Politics</li></a>
-   <a href="category.php?catid=3"><li class="nav">Sports</li></a>
-   <a href="category.php?catid=7"><li class="nav"> Business</li></a>
-   <a href="category.php?catid=5"><li class="nav"> Entertainment</li></a>
-   <a href="category.php?catid=6"><li class="nav"> Trending</li></a>
-   <a href="category.php?catid=9"><li class="nav"> Health</li></a> -->
- 
-    </ul> 
-   </section>
-<!--top navigation -->
-       
+    <span style="font-size:30px;cursor:pointer; color: rgb(255, 000, 155); float: left;" onclick="openNav()">☰ </span>&nbsp;&nbsp;&nbsp;
+    <a class="brand" href="index.php"><img src="images/logo1.png" width="184" height="61" alt="Logo"></a>
+    <h2 class="brand"><a href="index.php"><span style="color: black"> Kinmat Technologies</span> <span style="color: #0099FF">Limited | Blog</span> </a></h2>
+  
+  </section>
+
         
-        <div id="mySidenav" class="sidenav">
-           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i style="color: red; float: right; font-size: 50pt;" >&times;</i></a>
-           <div class="main-side-container">
-             <div>
-             <a href="javascript:void(0)" class="sub-side-container">Useful links</a>
-             <hr>
-             <a href="index.php"> Home</a>
-             <!-- <a href="category.php?catid=2"> Politics</a>  
-             <a href="category.php?catid=6"> Trending</a>            
-             <a href="category.php?catid=7"> Business</a>
-             <a href="category.php?catid=11"> Nigerian News</a>
-             <a href="category.php?catid=5"> Entertainment</a> -->
-           </div>
-           <!-- <div>
-             <a href="javascript:void(0)"></a>
-             <a href="javascript:void(0)"></a>
-             <a href="javascript:void(0)"></a>
-             <a href="#"> LifeStyle</a>
-             <a href="#"> Tech & Media</a>
-             <a href="category.php?catid=13"> Education</a>
-             <a href="category.php?catid=3"> Sports</a>
-             <a href="category.php?catid=9"> Health</a>
-             <a href="category.php?catid=10"> International</a>
-             <a href="category.php?catid=12"> Biographies</a>
-           </div>
-           <div>
-             <a href="javascript:void(0)" class="sub-side-container"> Crypto Currency</a>
-             <hr>
-             <a href="category.php?catid=8">Crypto News</a> 
-             <a href="category.php?catid=8">Coin Prices</a>
-           </div> -->
-           <div>
-             <a href="javascript:void(0)" class="sub-side-container"> Socials</a>
-             <hr>
-             <a href="#" class="facb"><i class="fa fa-facebook"></i> Facebook</a>
-             <a href="#" class="insg"><i class="fa fa-instagram"></i> Instagram</a>
-             <a href="#" class="twit"><i class="fa fa-twitter"></i> Twitter</a>
-             <a href="https://t.me/frontpageofficial" class="teleg"><i class="fa fa-telegram"></i> Telegram</a>
-           </div>
-           <!-- <div>
-             <a href="javascript:void(0)" class="sub-side-container"> Help & Support</a>
-             <hr>
-             <a href="contact-us.php"> Contact</a>
-             <a href="about-us.php"> About Us</a>
-             <a href="Write-for-us.php" class="w-f-u"> <i class="fa fa-book"></i> Write for Us</a>
-           </div> -->
-           </div>
-         </div>
-      
-       <script>
-           function openNav() {
-               document.getElementById("mySidenav").style.width = "100%";
-           }
-           
-           function closeNav() {
-               document.getElementById("mySidenav").style.width = "0";
-           }
-           </script>
-
-
-   <div class="row">
-                
-          <div class="main">
-                <div class="imgprops" style="height:auto;">
          
-  <!-- Blog Post -->
+         <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i style="color: red; float: right; font-size: 50pt;" >&times;</i></a>
+            <div class="main-side-container">
+              <div>
+              <a href="javascript:void(0)" class="sub-side-container">Useful links</a>
+              <hr>
+              <a href="index.php"> Home</a>
+              <a href="admin"> Admin</a>
+             </div>
+            
+            
+            <div>
+              <a href="javascript:void(0)" class="sub-side-container"> Socials</a>
+              <hr>
+              <a href="https://www.facebook.com/kingsley.okey.31" target="_blank" class="facb"><i class="fa fa-facebook"></i> Facebook</a>
+             <a href="https://www.instagram.com/kinmat_tech" target="_blank" class="insg"><i class="fa fa-instagram"></i> Instagram</a>
+             <a href="https://twitter.com/kinmatech" target="_blank" class="twit"><i class="fa fa-twitter"></i> Twitter</a>
+            </div>
+            
+            </div>
+          </div>
+       
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>   
+                 
+            <br><br><br>  <div class="row">
+                <div class="side">
+                  <h5 class="categorytitlediff" > <a href="category.php?catid=6" class="News-heading">TRENDING</a></h5>
+                  <div class="imgprops" style="height:auto;">
+        
   <?php 
         if($_GET['catid']!= ''){
 $_SESSION['catid']=intval($_GET['catid']);
