@@ -43,7 +43,7 @@ if($_GET['presid'])
         <!-- App favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico">
         <!-- App title -->
-        <title>FrontPage | Manage Posts</title>
+        <title>Kinmat Tech | Manage Posts</title>
 
         <!--Morris Chart CSS -->
 		<link rel="stylesheet" href="../plugins/morris/morris.css">

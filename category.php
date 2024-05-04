@@ -8,15 +8,14 @@ include('includes/config.php');
 <html lang="en">
 
 <head>
-    <title>Kinmat Technologies Limited | Blog Home</title>
+    <title>Kinmat Technologies Limited | Trending News</title>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="shortcut icon" href="favicon.ico" type="image/png">
         <link rel="apple-touch-icon" href="favicon.ico">
-        <meta name="description" content="">  
-        <meta name="keywords" content=" ">
+        <meta name="description" content="Kinmat Tech Blog">  
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <meta property="og:url" content="">
+        <meta property="og:url" content="Kinmat Tech Blog">
         <meta property="og:image" content="#">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="theme-color" content="#ffffff">
