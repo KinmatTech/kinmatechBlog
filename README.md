@@ -14,7 +14,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/KinmatTech/Kinmat-Tech-blog.git
+   git clone https://github.com/KinmatTech/kinmatechBlog.git
    ```
 
 2. **Navigate to the Project Directory:**
@@ -37,7 +37,7 @@ Before you begin, ensure you have the following installed:
 6. **Run the Application:**
    - Open your web browser.
    - Navigate to `http://localhost/blog` (replace `localhost` with your server's hostname if needed).
-   - You should see the login page of the blog admin site. URL: kinmatech.com.ng/blog
+   - You should see the home page of the blog admin site. URL: kinmatech.com.ng/blog
 
 7. **Login:**
    - Use the default admin credentials (username: `admin`, password: `admin`) to log in.
@@ -51,9 +51,8 @@ Before you begin, ensure you have the following installed:
 - **Dashboard:** View statistics and analytics about your blog.
 - **Posts:** Create, edit, and delete blog posts.
 - **Categories:** Manage post categories.
-- **Tags:** Manage post tags.
 - **Comments:** View and moderate comments on your blog posts.
-- **Users:** Manage user accounts and permissions.
+- **Users:** Manage user accounts and permissions. (Coming soon...) i.e. Not yet integrated.
 
 ## Contributing
 
