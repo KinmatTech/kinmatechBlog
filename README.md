@@ -37,13 +37,15 @@ Before you begin, ensure you have the following installed:
 6. **Run the Application:**
    - Open your web browser.
    - Navigate to `http://localhost/blog` (replace `localhost` with your server's hostname if needed).
-   - You should see the home page of the blog admin site. URL: kinmatech.com.ng/blog
-
+   - You should see the home page of the blog admin site in localhost address.   
+   
 7. **Login:**
-   - Use the default admin credentials (username: `admin`, password: `admin`) to log in.
+   - Use the default admin credentials (username: `admin`, password: `admin`) to log in localhost.
+   
+   - - Live URL: kinmatech.com.ng/blog - log in with same credentials above. 
 
 8. **Change Default Admin Credentials:**
-   - After logging in, navigate to the admin settings page.
+   - After logging in on localhost, navigate to the admin settings page.
    - Change the default admin username and password for security purposes.
 
 ## Usage
