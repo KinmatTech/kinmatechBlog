@@ -2,7 +2,7 @@
 
                 <!-- LOGO -->
                 <div class="topbar-left">
-                    <a href="index.php" class="logo"><span>KINMAT<span>&nbsp;TECH</span></span><i class="mdi mdi-layers"></i></a>
+                    <a href="dashboard.php" class="logo"><span>KINMAT<span>&nbsp;TECH</span></span><i class="mdi mdi-layers"></i></a>
                     <!-- Image logo -->
                     <!--<a href="index.html" class="logo">-->
                         <!--<span>-->
