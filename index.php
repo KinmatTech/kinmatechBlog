@@ -443,6 +443,8 @@ include('includes/config.php');
               <hr>
               <a href="index.php"> Home</a>
               <a href="admin"> Admin</a>
+              <a href="user">Users</a>
+              
              </div>
             
             
